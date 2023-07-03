@@ -1,5 +1,9 @@
 {
-  "name": "greeter",
+  "name": "@cachemonet/greeter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaslimitreached/greeter.git"
+  },
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
@@ -40,6 +44,9 @@
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [
