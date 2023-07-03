@@ -1,5 +1,5 @@
 {
-  "name": "@cachemonet/greeter",
+  "name": "greeter",
   "repository": {
     "type": "git",
     "url": "https://github.com/gaslimitreached/greeter.git"

@@ -7,6 +7,7 @@ const project = new typescript.TypeScriptProject({
   repository: 'https://github.com/gaslimitreached/greeter.git',
   npmRegistryUrl: 'https://npm.pkg.github.com',
   projenrcTs: true,
+  packageName: 'greeter',
 });
 
 project.synth();
