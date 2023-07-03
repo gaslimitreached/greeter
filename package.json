@@ -1,5 +1,5 @@
 {
-  "name": "greeter",
+  "name": "@gaslimitreached/greeter",
   "repository": {
     "type": "git",
     "url": "https://github.com/gaslimitreached/greeter.git"
@@ -45,7 +45,8 @@
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
   },
   "version": "0.0.0",
   "jest": {
